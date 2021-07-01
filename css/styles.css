@@ -1,0 +1,136 @@
+* {
+  box-sizing  : border-box;
+  font-family : 'Montserrat', sans-serif;
+  font-size   : 16px;
+  line-height : 1.6;
+}
+
+h1 {
+  font-size : 3em;
+}
+
+h3 {
+  font-size : 1.5em;
+}
+
+h4 {
+  font-size : 1.25em;
+}
+
+pre {
+  font-family      : monospace;
+  font-size        : 14px;
+  line-height      : 1.3;
+  background-color : #e0e0e0;
+  padding          : 20px;
+}
+
+body {
+  background-color : #bdbec0;
+  margin           : 0;
+  padding          : 0;
+}
+
+.container {
+  width        : 1200px;
+  margin-top   : 30px;
+  margin-left  : auto;
+  margin-right : auto;
+}
+
+.main-block {
+  display : flex;
+  width   : 100%;
+}
+
+.side-panel {
+  width      : 33%;
+  color      : #fff;
+  background : #2a3342;
+}
+
+.avatar {
+  display       : block;
+  margin        : 15% auto;
+  width         : 70%;
+  border-radius : 100%;
+  border        : 5px solid #fff;
+}
+
+.aside-section {
+  margin-bottom : 15%;
+}
+
+.aside-header {
+  margin-left    : 15%;
+  padding-bottom : 5%;
+  border-bottom  : 1px solid #757575;
+}
+
+.side-panel li {
+  list-style-type     : none;
+  list-style-position : inside;
+  margin-top          : 5%;
+  margin-bottom       : 3%;
+  margin-left         : 15%;
+}
+
+.contact-icon {
+  margin-right : 5%;
+}
+
+.main-content {
+  width            : 67%;
+  color            : #464646;
+  background-color : #fff;
+}
+
+header {
+  margin-top    : 15%;
+  margin-left   : 15%;
+  margin-bottom : 15%;
+}
+
+.main-section {
+  margin-right  : 10%;
+  margin-bottom : 5%;
+  margin-left   : 15%;
+}
+
+.main-header {
+  padding-bottom : 3%;
+  border-bottom  : 1px solid;
+  margin-bottom  : 3%;
+}
+
+.icon {
+  margin-right : 5%;
+  font-size    : 1.5em;
+}
+
+.main-block li {
+  padding : 0 15px 0 0;
+}
+
+.main-list li {
+  list-style-type : none;
+}
+
+.footer {
+  display         : flex;
+  padding-left    : 4%;
+  padding-right   : 7%;
+  padding-bottom  : 30px;
+  justify-content : space-between;
+  align-items     : center;
+  background      : linear-gradient(90deg, rgba(82, 82, 82, 1) 0%, rgba(57, 57, 57, 1) 100%);
+  color           : #fff;
+}
+
+.my-github-link {
+  text-decoration : none;
+}
+
+.my-github-link:visited {
+  color : #fff;
+}
