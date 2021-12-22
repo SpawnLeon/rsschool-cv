@@ -20,3 +20,37 @@ const fizzBuzz = (begin, end) => {
   }
 };
 ```
+
+
+### Experience:
+
+#### Nuber (04.2020 - present)
+- Development, support and modification web applications on React, Vue.js and Nuxt.js;
+- Legacy code refactoring and debugging;
+
+#### LLC "Itorum" (04.2020 - 12.2020)
+- Development, support and modification eSHop on Bitrix;
+- Legacy code refactoring and debugging;
+- Developed new modules for shop;
+- API integration for eCommerce
+
+
+#### LLC "Beehive" (07.2013 - 03.2020)
+- Development, support and modification websites and web applications;
+- Legacy code refactoring and debugging;
+- Developed new modules for shop;
+- API integration for eCommerce
+
+### Education
+
+##### [2009 - 2012] Rostov-on-Don College of Communications and Informatics
+###### Bachelor in Control and Automation engineering
+Graduated with honors
+
+#### Courses:
+- https://ru.hexlet.io/u/alleonov
+- https://htmlacademy.ru/profile/spawnleon
+
+#### Languages:
+- English - A2
+- Russian - native
