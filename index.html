@@ -1,14 +1,280 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible"
+  <meta http-equiv="x-ua-compatible"
         content="ie=edge">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet"
+        href="css/styles.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/paraiso-light.min.css">
+  <title>Alexander Leonov CV</title>
 </head>
 <body>
+<div class="page">
+  <h1 class="visually-hidden">Alexander Leonov</h1>
+  <div class="page__container container">
 
+    <nav class="page__nav">
+      <ul class="page__menu main-menu clear-list">
+        <li class="main-menu__item">
+          <a href="#about"
+             class="main-menu__link">about me</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#experience"
+             class="main-menu__link">experience</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#courses"
+             class="main-menu__link">courses</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#code"
+             class="main-menu__link">code</a>
+        </li>
+        <li class="main-menu__item">
+          <a href="#portfolio"
+             class="main-menu__link">portfolio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <aside class="page__aside sidebar">
+      <header class="header">
+        <div class="header__avatar">
+          <img src="./images/photo.jpg"
+               alt="Alexander Leonov">
+        </div>
+        <div class="header__info info">
+          <div class="info__name">Alexander Leonov</div>
+          <div class="info__post">JavaScript Fullstack Developer</div>
+        </div>
+      </header>
+
+      <section class="page__contacts contacts">
+        <h2 class="visually-hidden">Contacts</h2>
+        <ul class="contacts__inner  clear-list">
+          <li class="contacts__item">
+            <a href="mailto:al.al.leonov@yandex.ru"
+               class="contacts__link">
+              <span class="contact__icon contact__icon--email"></span>
+              <span class="contact__text">al.al.leonov@yandex.ru</span>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+79200272716"
+               class="contacts__link">
+              <span class="contact__icon contact__icon--phone"></span>
+              <span class="contact__text">+7 (920) 027-27-16</span>
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a href="https://t.me/SpawnLeon"
+               class="contacts__link">
+              <span class="contact__icon contact__icon--telegram"></span>
+              <span class="contact__text">@SpawnLeon</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="sidebar__block page__skills skills">
+        <div class="sidebar__block-title">Skills</div>
+        <div class="skills__inner">
+          <ul class="skills__list skills-list clear-list">
+            <li class="skills-list__item">Frontend: ES6+, Vue, Nuxt;</li>
+            <li class="skills-list__item">Backend: Node.js, PHP;</li>
+            <li class="skills-list__item">Layout: html, css/sass/SCSS, BEM;</li>
+            <li class="skills-list__item">Miscellaneous: npm, webpack, babel, ESlint, Git;</li>
+            <li class="skills-list__item">CMS: Bitrix, Drupal, Joomla.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sidebar__block page__skills languages">
+        <div class="sidebar__block-title">Languages</div>
+        <div class="languages__inner">
+          <ul class="languages__list languages-list clear-list">
+            <li class="languages-list__item">English: A2</li>
+            <li class="languages-list__item">Russian: native</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sidebar__block page__skills social">
+        <div class="sidebar__block-title">Social</div>
+        <div class="social__inner">
+          <ul class="social__list social-list clear-list">
+            <li class="social__item">
+              <a href="https://vk.com/spawnleon">vk.com</a>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+    </aside>
+    <main class="page__main main">
+      <section id="about me"
+               class="main__experience main-block about">
+        <h2 class="main-block__title"><span>About me</span></h2>
+        <div class="main-block__inner">
+          <p>
+            I’ve been developing applications for the web using mostly PHP with poplar CMS (Drupal, 1C-Bitrix,
+            Wordpress) since 2013.
+          </p>
+          <p>
+            Now I'm a fullstack javascript developer.
+          </p>
+          <p>
+            The main goal is starting my career as a Middle Front-End developer. I want to improve my JavaScript skills
+            and to get the the Frontend-job next year.
+          </p>
+        </div>
+      </section>
+
+
+      <section id="experience"
+               class="main__experience main-block experience">
+        <h2 class="main-block__title"><span>Experience</span></h2>
+        <div class="main-block__inner">
+          <ul class="experience__list experience-list clear-list">
+            <li class="experience-list__item">
+              <h3>
+                Nuber (from 02.2021)
+              </h3>
+              <ul class=" clear-list">
+                <li>Development, support and modification web applications on Vue.js, Nuxt and React;</li>
+                <li>Legacy code refactoring and debugging.</li>
+              </ul>
+            </li>
+            <li class="experience-list__item">
+              <h3>
+                LLC "Itorum" (from 04.2020 to 12.2020)
+              </h3>
+              <ul class=" clear-list">
+                <li>Development, support and modification eSHop;</li>
+                <li>Legacy code refactoring and debugging;</li>
+                <li>Developed new modules for shop;</li>
+                <li>API integration for eCommerce.</li>
+              </ul>
+            </li>
+            <li class="experience-list__item">
+              <h3>
+                LLC "Beehive" (from 07.2013 to 03.2020)
+              </h3>
+              <ul class=" clear-list">
+                <li>Development, support and modification websites and web applications;</li>
+                <li>Legacy code refactoring and debugging;</li>
+                <li>Developed new modules for shop;</li>
+                <li>API integration for eCommerce.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="courses"
+               class="main__courses main-block courses">
+        <h2 class="main-block__title"><span>Courses</span></h2>
+        <div class="main-block__inner">
+          <ul class="clear-list">
+            <li>https://ru.hexlet.io/u/alleonov</li>
+            <li>https://htmlacademy.ru/profile/spawnleon</li>
+            <li>https://learn.javascript.ru</li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section id="code"
+               class="main__code-example main-block code-example">
+        <h2 class="main-block__title"><span>Code example</span></h2>
+        <div class="main-block__inner">
+          <pre class="code-example__pre"><code class="code-example__code js">const fizzBuzz = (begin, end) => {
+  for (let i = begin; i <= end; i += 1) {
+    const hasFizz = i % 3 === 0;
+    const hasBuzz = i % 5 === 0;
+    const fizzPart = hasFizz ? 'Fizz' : '';
+    const buzzPart = hasBuzz ? 'Buzz' : '';
+    console.log(`${fizzPart}${buzzPart}` || i);
+  }
+};</code></pre>
+        </div>
+      </section>
+
+    </main>
+    <section id="portfolio"
+             class="portfolio">
+      <h2 class="portfolio__title">Portfolio</h2>
+      <div class="portfolio__inner">
+        <article class="portfolio__item portfolio-item">
+          <a href="https://rollstime.ru"
+             target="_blank"
+             class="portfolio-item__inner">
+
+            <img src="./images/p-1.jpg"
+                 alt="rollstime"
+                 class="portfolio-item__image">
+            <footer class="portfolio-item__footer">
+              <h3 class="portfolio-item__title">rollstime.ru</h3>
+              <ul class="portfolio-item__tech clear-list">
+                <li>nuxt</li>
+                <li>express</li>
+                <li>nodejs</li>
+              </ul>
+              <div class="portfolio-item__desc">Web app for food delivery</div>
+            </footer>
+          </a>
+        </article>
+
+        <article class="portfolio__item portfolio-item">
+          <a href="https://chuchvaraangarsk.ru/"
+             target="_blank"
+             class="portfolio-item__inner">
+
+            <img src="./images/p-2.jpg"
+                 alt="chuchvaraangarsk"
+                 class="portfolio-item__image">
+            <footer class="portfolio-item__footer">
+              <h3 class="portfolio-item__title">chuchvaraangarsk.ru</h3>
+              <ul class="portfolio-item__tech clear-list">
+                <li>nuxt</li>
+                <li>express</li>
+                <li>nodejs</li>
+              </ul>
+              <div class="portfolio-item__desc">Web app for food delivery</div>
+            </footer>
+          </a>
+        </article>
+
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="https://github.com/SpawnLeon"
+         class="my-github-link">Follow me on GitHub</a>
+      <span class="year">&copy;2021</span>
+      <a href="https://rs.school/js/"
+         target="_blank"
+         rel="nofollow noreferrer">
+        <img width="100"
+             height="40"
+             src="https://rs.school/images/rs_school_js.svg"
+             alt="rs.school">
+      </a>
+    </footer>
+  </div>
+
+</div>
+<script src="./js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
