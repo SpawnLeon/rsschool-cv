@@ -24,7 +24,7 @@
     <nav class="page__nav">
       <ul class="page__menu main-menu clear-list">
         <li class="main-menu__item">
-          <a href="#about"
+          <a href="#about-me"
              class="main-menu__link">about me</a>
         </li>
         <li class="main-menu__item">
@@ -86,7 +86,7 @@
       </section>
 
       <section class="sidebar__block page__skills skills">
-        <div class="sidebar__block-title">Skills</div>
+        <h2 class="sidebar__block-title">Skills</h2>
         <div class="skills__inner">
           <ul class="skills__list skills-list clear-list">
             <li class="skills-list__item">Frontend: ES6+, Vue, Nuxt;</li>
@@ -99,7 +99,7 @@
       </section>
 
       <section class="sidebar__block page__skills languages">
-        <div class="sidebar__block-title">Languages</div>
+        <h2 class="sidebar__block-title">Languages</h2>
         <div class="languages__inner">
           <ul class="languages__list languages-list clear-list">
             <li class="languages-list__item">English: A2</li>
@@ -109,7 +109,7 @@
       </section>
 
       <section class="sidebar__block page__skills social">
-        <div class="sidebar__block-title">Social</div>
+        <h2 class="sidebar__block-title">Social</h2>
         <div class="social__inner">
           <ul class="social__list social-list clear-list">
             <li class="social__item">
@@ -122,7 +122,7 @@
 
     </aside>
     <main class="page__main main">
-      <section id="about me"
+      <section id="about-me"
                class="main__experience main-block about">
         <h2 class="main-block__title"><span>About me</span></h2>
         <div class="main-block__inner">
@@ -199,7 +199,7 @@
         <h2 class="main-block__title"><span>Code example</span></h2>
         <div class="main-block__inner">
           <pre class="code-example__pre"><code class="code-example__code js">const fizzBuzz = (begin, end) => {
-  for (let i = begin; i <= end; i += 1) {
+  for (let i = begin; i &lt;= end; i += 1) {
     const hasFizz = i % 3 === 0;
     const hasBuzz = i % 5 === 0;
     const fizzPart = hasFizz ? 'Fizz' : '';
