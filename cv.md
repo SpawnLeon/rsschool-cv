@@ -24,7 +24,11 @@ const fizzBuzz = (begin, end) => {
 
 ### Experience:
 
-#### Nuber (04.2020 - present)
+#### Bars Group (06.2022 - present)
+- Development, support and modification web applications on Vue.js and Nuxt.js;
+- Legacy code refactoring and debugging;
+
+#### Nuber (04.2021 - 05.2022)
 - Development, support and modification web applications on React, Vue.js and Nuxt.js;
 - Legacy code refactoring and debugging;
 
@@ -52,5 +56,5 @@ Graduated with honors
 - https://htmlacademy.ru/profile/spawnleon
 
 #### Languages:
-- English - A2
+- English - B1
 - Russian - native
